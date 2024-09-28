@@ -1,0 +1,12 @@
+services:
+  fibonacciapi:
+    container_name: fibonacci-api
+    image: ${DOCKER_REGISTRY-}fibonacciapi
+    build:
+      context: .
+      dockerfile: src/FibonacciApi/Dockerfile
+    ports:
+      - 8000:8080
+      - 8001:8081
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
