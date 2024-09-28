@@ -121,9 +121,6 @@ For logging, I would prefer to use Serilog, for its structured logging capabilit
 
 ## Scaling
 
-To ensure the system can handle high traffic and provide reliable uptime, the following scaling strategies will be implemented:
-
-1. **Horizontal Scaling**: Additional instances of the service will be added to distribute the load and minimize downtime in case one instance fails.
-2. **Distributed Caching**: A distributed cache like Redis will be used to store more Fibonacci numbers and improve performance by distributing cache across multiple nodes.
+To ensure the system can handle high traffic and provide reliable uptime, I would suggest horizontal scaling and distributed caching. For horizontal scaling I would add additional instances of the service to distribute the load and minimize downtime in case one instance fails. For distributed caching I would prefer to use Redis, to store more Fibonacci numbers and improve performance by distributing cache across multiple nodes.
 
 ---
