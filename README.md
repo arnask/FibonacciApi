@@ -23,11 +23,11 @@ Ensure you have the following installed:
    git clone git@github.com:arnask/FibonacciApi.git
    ```
 
-2. **Ensure Docker is Installed and Running**
+2. **Ensure Docker is installed and running**
 
    Make sure Docker is properly installed and running on your machine.
 
-3. **Navigate to the Project Directory**
+3. **Navigate to the project directory**
 
    Open PowerShell (or any terminal of your choice) and navigate to the root directory of the project, where the `docker-compose.yml` file is located:
 
@@ -64,12 +64,13 @@ For containerization, I would select Docker, because it is the most popular, and
 
 ## CI / CD Pipeline
 
-For CI/CD, I would choose Azure DevOps, because it is a Microsoft product with native support for .NET applications.  Additionally, I have significant experience using this platform, making it the optimal choice for this project.
+For CI/CD, I would choose Azure DevOps, because it is a Microsoft product with native support for .NET applications.  Additionally, I have significant experience using this platform.
 
 ---
 
-### Continuous Integration  Process
+### Continuous Integration Process
 
+For continuous integration I would recommend to have a process like this:
 1. The main branch is disabled for direct pushes. Instead, developers push new code to a feature branch.
 2. The CI pipeline is triggered automatically when new code is pushed.
 3. The pipeline installs dependencies, compiles the code, and packages the application.
@@ -98,7 +99,7 @@ These environments would provide isolated spaces for testing and deploying featu
 
 ## Monitoring and Logging
 
-### Monitoring: Azure Application Insights
+### Monitoring
 
 For monitoring, I would prefer to use Azure Application Insights to track key metrics for maintaining the application’s performance:
 
