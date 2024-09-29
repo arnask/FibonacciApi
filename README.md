@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**
 
-   Clone the master branch of the repository to your local machine:
+   Clone the main branch of the repository to your local machine:
 
    ```bash
    git clone git@github.com:arnask/FibonacciApi.git
