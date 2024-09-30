@@ -103,10 +103,10 @@ These environments would provide isolated spaces for testing and deploying featu
 
 For monitoring, I would prefer to use Azure Application Insights to track key metrics for maintaining the application’s performance:
 
-- **Response Time**: Monitors how long the application takes to process requests.
-- **Request Rate**: Measures the application's load and performance under varying levels of user activity.
-- **Uptime & Downtime**: Tracks application availability and reliability.
-- **Error Rate**: Tracks the percentage of requests resulting in errors compared to total requests.
+- **Response Time**: would monitor how long the application takes to process requests.
+- **Request Rate**: would measure the application's load and performance under varying levels of user activity.
+- **Uptime & Downtime**: would track application availability and reliability.
+- **Error Rate**: would track the percentage of requests resulting in errors compared to total requests.
 
 ### Logging
 
